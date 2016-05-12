@@ -1,0 +1,21 @@
+{
+  "name": "akamai-slack-reporter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "Mike Ball",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "edgegrid": "https://github.com/mdb/AkamaiOPEN-edgegrid-node.git#redirect-support",
+    "slack-integrator": "0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "1.14.x",
+    "supertest": "0.14.x",
+    "nock": "0.58.0",
+    "sinon": "1.17.4"
+  }
+}
