@@ -1,6 +1,6 @@
 {
   "name": "akamai-slack-reporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Query your team's Akamai configuration from Slack",
   "main": "src/app.js",
   "scripts": {
