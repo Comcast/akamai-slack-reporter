@@ -36,9 +36,9 @@ function AkamaiReporter(options) {
       });
     },
 
-    token: process.env.SLACK_TOKEN,
+    token: this.opts.slackToken,
 
-    hookPath: process.env.INCOMING_SLACK_WEB_HOOK_PATH
+    hookPath: this.opts.hookPath
   });
 }
 
