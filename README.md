@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Comcast/akamai-slack-reporter.svg?branch=master)](https://travis-ci.org/Comcast/akamai-slack-reporter)
+
 # akamai-slack-reporter
 
 A Slack slash command integration for querying your team's Akamai configuration.
@@ -56,11 +58,10 @@ var AkamaiSlackReporter = require('akamai-slack-reporter'),
     });
 ```
 
-Next, deploy the `akamai-slack-reporter` instance to `some-url.com`; its integration endpoint available
-at `some-url.com/integration`.
+Next, deploy the `akamai-slack-reporter` instance to `some-url.com`.
 
-Last, configure a slash command integration to perform `POST` requests to your `akamai-slack-reporter` instance
-at its `/integration` endpoint: `some-url.com/integration`
+Last, configure a Slack slash command integration to perform `POST` requests to
+your `akamai-slack-reporter` instance at its `/integration` endpoint: `https://some-url.com/integration`
 
 ## Local development
 
