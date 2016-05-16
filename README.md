@@ -4,6 +4,12 @@
 
 A Slack slash command integration for querying your team's Akamai configuration.
 
+## Installation
+
+```
+npm install akamai-slack-reporter
+```
+
 ## Usage
 
 Once deployed & configured, `akamai-slack-reporter` provides the following queries to your slash command integration:
